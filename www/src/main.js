@@ -11,7 +11,7 @@ var mainContext = Engine.createContext();
 // your app here
 var logo = new ImageSurface({
     size: [200, 200],
-    content: '../images/Bekazon-logo.png',
+    content: 'http://intranet.moy.com.my/images/Bekazon-logo.png',
     classes: ['double-sided']
 });
 
