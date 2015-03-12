@@ -11,7 +11,7 @@ var mainContext = Engine.createContext();
 // your app here
 var logo = new ImageSurface({
     size: [200, 200],
-    content: 'http://192.168.11.28:3000/images/Bekazon-logo.png',
+    content: '../images/Bekazon-logo.png',
     classes: ['double-sided']
 });
 
@@ -20,7 +20,7 @@ var centerSpinModifier = new Modifier({
     origin: [0.5, 0.5],
     align: [0.5, 0.5],
     transform : function () {
-        return Transform.rotateY(.002 * (Date.now() - initialTime));
+        return Transform.rotateY(.009 * (Date.now() - initialTime));
     }
 });
 
